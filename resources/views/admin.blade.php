@@ -13,6 +13,7 @@
     <div class="toolbar">
         <a href="{{route('shop')}}">商品画面へ</a>
         <a href="{{route('mycart')}}">マイカートへ</a>
+        <a href="{{route('productCreate')}}">商品登録へ</a>
     </div>
     @endauth
     <div class="admin-container">

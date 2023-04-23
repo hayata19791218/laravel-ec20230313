@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="{{ asset('css/shop.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/reset.css') }}" rel="stylesheet" type="text/css">
+        <meta name=”robots” content=”noindex”/>
         <title>商品一覧</title>
     </head>
     <body>
@@ -12,6 +13,7 @@
         <div class="toolbar">
             <a href="{{route('admin')}}">商品管理画面へ</a>
             <a href="{{route('mycart')}}">マイカートへ</a>
+            <a href="{{route('productCreate')}}">商品登録へ</a>
         </div>
         @endauth
         <div class="shop-container">

@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="{{ asset('css/productCreate.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/reset.css') }}" rel="stylesheet" type="text/css">
+        <meta name=”robots” content=”noindex”/>
         <title>商品編集</title>
     </head>
     <body>
