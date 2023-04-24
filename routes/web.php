@@ -29,7 +29,7 @@ Route::fallback(function () {
 });
 
 //商品一覧ページ
-Route::get('/index','ShopController@index')->name('shop');
+Route::get('/index','ShopController@index')->name('shop')->middleware('auth');
 
 //商品登録ページ
 Route::get('/productCreate','ShopController@productCreate')->name('productCreate');
