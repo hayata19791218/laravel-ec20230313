@@ -9,13 +9,13 @@
         <title>商品一覧</title>
     </head>
     <body>
-        @auth
+        @can('admin')
         <div class="toolbar">
             <a href="{{route('admin')}}">商品管理画面へ</a>
             <a href="{{route('mycart')}}">マイカートへ</a>
             <a href="{{route('productCreate')}}">商品登録へ</a>
         </div>
-        @endauth
+        @endcan
         <div class="shop-container">
             <h1>商品一覧</h1>
             <div class="item-container">
